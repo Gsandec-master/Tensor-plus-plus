@@ -1,5 +1,7 @@
 # Tensor-plus-plus
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a3131a6fb68a4536ba03dd774858f921)](https://app.codacy.com/gh/Gsandec-master/Tensor-plus-plus?utm_source=github.com&utm_medium=referral&utm_content=Gsandec-master/Tensor-plus-plus&utm_campaign=Badge_Grade_Settings)
+
 ## Functionality
 	
 **tensor_lib::tensor** is an allocator-aware template container that describes a mathematical tensor, implemented as a heap allocated array. It is build as an alternative to structures such as std::vector<std::vector<std::vector<...>>>, replicating its behaviour and syntax almost entirely. The improvements (and the implementational challenges) come from the fact that our tensor's underlyting data is contiguous in memory as oppossed to the "all over the place" allocated data in a nested vector structure. 
